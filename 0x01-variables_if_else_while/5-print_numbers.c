@@ -10,7 +10,7 @@ int Alpha = 0;
 
 while (Alpha < 10)
 {
-printf(" %d", Alpha);
+printf("%d ", Alpha);
 Alpha++;
 }
 return (0);
