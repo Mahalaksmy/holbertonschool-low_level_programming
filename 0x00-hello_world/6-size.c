@@ -5,12 +5,12 @@
  *
  * Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
 printf("%lu\n", sizeof(char));
 printf("%lu\n", sizeof(int));
 printf("%lu", sizeof(long int));
 printf("%lu", sizeof(long long int));
 printf("%lu\n", sizeof(float));
-return 0;
+return (0);
 }
