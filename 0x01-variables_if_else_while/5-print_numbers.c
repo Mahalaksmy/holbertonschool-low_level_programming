@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-int Alpha = 0;
+int Alpha = 1 ;
 
-while (Alpha < 10)
+while (Alpha < 11)
 {
-printf("%d ", Alpha);
+printf("%d", Alpha);
 Alpha++;
 }
 return (0);
