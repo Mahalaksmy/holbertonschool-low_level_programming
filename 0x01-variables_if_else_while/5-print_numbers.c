@@ -8,7 +8,7 @@ int main(void)
 {
 int Alpha = 0;
 
-while (Alpha < 10)
+while (Alpha <= 10)
 {
 printf("%d", Alpha);
 Alpha++;
