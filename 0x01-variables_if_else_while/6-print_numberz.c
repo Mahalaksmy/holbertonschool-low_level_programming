@@ -13,5 +13,6 @@ while (Alpha < 58)
 putchar(Alpha);
 Alpha++;
 }
+putchar('\n');
 return (0);
 }
