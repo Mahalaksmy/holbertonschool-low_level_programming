@@ -6,12 +6,13 @@
  */
 int main(void)
 {
-int Alpha = 1 ;
+int Num = 0;
 
-while (Alpha < 11)
+while (Num < 10)
 {
-printf("%d", Alpha);
-Alpha++;
+printf("%d", Num);
+Num++;
 }
+printf("\n");
 return (0);
 }
