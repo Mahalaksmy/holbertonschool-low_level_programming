@@ -3,9 +3,9 @@
 
 /**
  * _islower -function lowercase check the code.
- *
  * @c: variable
- *return: 1 and 0
+ *
+ *Return: int 1 or  0
  */
 int _islower(int c)
 {
