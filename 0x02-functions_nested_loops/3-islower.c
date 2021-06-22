@@ -2,7 +2,7 @@
 #include "holberton.h"
 
 /**
- *int _islower(int c)- check the code.
+ * _islower -function lowercase check the code.
  *
  * Return: Always 0.
  */
