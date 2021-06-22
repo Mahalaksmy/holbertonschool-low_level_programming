@@ -15,5 +15,4 @@ _putchar(Alphabet);
 Alphabet++;
 }
 _putchar ('\n');
-return (0);
 }
