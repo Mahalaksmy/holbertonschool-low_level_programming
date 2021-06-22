@@ -4,7 +4,8 @@
 /**
  * _islower -function lowercase check the code.
  *
- * Return: Always 0.
+ * @c: variable
+ *return: 1 and 0
  */
 int _islower(int c)
 {
