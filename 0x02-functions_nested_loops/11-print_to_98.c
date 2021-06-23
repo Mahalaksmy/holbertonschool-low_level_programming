@@ -19,7 +19,7 @@ printf("%d\n", n);
 }
 }
 }
-else (n > 98)
+else if (n > 98)
 {
 while (n > 98)
 {
