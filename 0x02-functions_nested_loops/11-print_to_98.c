@@ -31,4 +31,8 @@ printf("%d\n", n);
 }
 }
 }
+else
+{
+printf("%d\n", n);
+}
 }
