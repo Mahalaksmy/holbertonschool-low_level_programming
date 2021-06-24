@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- *jack_bauer -Return the absolute value of an integer
+ *times_table -Return the absolute value of an integer
  *
  */
 void times_table(void)
