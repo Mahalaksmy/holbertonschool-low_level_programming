@@ -2,7 +2,6 @@
 /**
  *jack_bauer -Return the absolute value of an integer
  *
- *Return: int
  */
 void jack_bauer(void)
 {
@@ -20,5 +19,4 @@ _putchar('0' + (Min % 10));
 _putchar('\n');
 }
 }
-return (0);
 }
