@@ -14,9 +14,9 @@ for (numbers = 0; numbers <= 14; numbers++)
 {
 if (numbers > 9)
 {
-putchar('0' + (numbers / 10));
-putchar('0' + (numbers % 10));
+_putchar('0' + (numbers / 10));
+_putchar('0' + (numbers % 10));
 }
-putchar('\n');
+_putchar('\n');
 }
 }
