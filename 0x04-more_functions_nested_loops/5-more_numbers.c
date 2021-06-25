@@ -13,7 +13,10 @@ for (num = 0; num <= 10; num++)
 {
 for (numbers = 0; numbers <= 14; numbers++)
 {
-putchar('0' + numbers);
+if (numbers > 9)
+{
+putchar('0' + (numbers / 10));
+putchar('0' + (numbers % 10));
 }
 putchar('\n');
 }
