@@ -10,4 +10,5 @@ for (numbers = 48; numbers <= 57; numbers++)
 {
 _putchar (numbers);
 }
+_putchar ('\n');
 }
