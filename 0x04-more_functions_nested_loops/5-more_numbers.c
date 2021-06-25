@@ -3,7 +3,6 @@
 /**
  *more_numbers -Write a function that prints 10 times the numbers,
  *
- * Return: Always 0.
  */
 void more_numbers(void)
 {
@@ -20,5 +19,4 @@ putchar('0' + (numbers % 10));
 }
 putchar('\n');
 }
-return (0);
 }
