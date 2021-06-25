@@ -1,9 +1,10 @@
 #include "holberton.h"
 /**
- *print_numbers - Write a function that multiplies two integers.
+ *print_most_numbers -Write a function that prints the numbers.
  *
  */
-void print_numbers(void)
+
+void print_most_numbers(void)
 {
 int numbers;
 for (numbers = 48; numbers <= 57; numbers++)
