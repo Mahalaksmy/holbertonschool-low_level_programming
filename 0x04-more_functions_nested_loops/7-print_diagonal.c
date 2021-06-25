@@ -10,14 +10,14 @@ int con;
 
 if (n <= 0)
 {
-putchar('\n');
+_putchar('\n');
 }
 else
 {
 for (con = 0; con < n; con++)
 {
-putchar(92);
+_putchar(92);
 }
 }
-putchar('\n');
+_putchar('\n');
 }
