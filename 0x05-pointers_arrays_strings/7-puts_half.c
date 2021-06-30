@@ -21,8 +21,8 @@ n = x / 2;
 else
 {
 n = (x - 1) / 2;
+n = x -n;
 }
-n = n + 1;
 while (str[n] != '\0')
 {
 _putchar (str[n]);
