@@ -18,5 +18,5 @@ if (x < n - 1)
 printf(", ");
 }
 }
-_putchar('\n')
+_putchar('\n');
 }
