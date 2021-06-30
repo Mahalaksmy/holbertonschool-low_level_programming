@@ -21,7 +21,7 @@ n = x / 2;
 else
 {
 n = (x - 1) / 2;
-n = x -n;
+n = x - n;
 }
 while (str[n] != '\0')
 {
