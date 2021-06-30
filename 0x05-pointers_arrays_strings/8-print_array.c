@@ -4,8 +4,8 @@
 *print_array - A function that prints n elements of an array of integers
 *
 *@a: Pointer
-*@b: Variable
-*@x: Entero
+*@n: Variable
+*Return: No return
 */
 void print_array(int *a, int n)
 {
@@ -14,10 +14,11 @@ int x;
 for (x = 0; x < n; x++)
 {
 printf("%d", a[x]);
-if (x < n - 1)
+
+if (x <  (n - 1))
 {
 printf(", ");
 }
 }
-_putchar('\n');
+printf('\n');
 }
