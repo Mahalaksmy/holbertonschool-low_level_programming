@@ -22,7 +22,7 @@ else
 {
 n = (x - 1) / 2;
 }
-n = n - 1;
+n = n + 1;
 while (str[n] != '\0')
 {
 _putchar (str[n]);
