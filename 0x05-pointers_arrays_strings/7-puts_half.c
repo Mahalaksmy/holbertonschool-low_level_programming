@@ -13,7 +13,7 @@ while (str[x] != '\0')
 {
 x++;
 }
-x = x - 1;
+
 if (x % 2 == 0)
 {
 n = x / 2;
@@ -22,6 +22,7 @@ else
 {
 n = (x - 1) / 2;
 }
+n = n - 1;
 while (str[n] != '\0')
 {
 _putchar (str[n]);
