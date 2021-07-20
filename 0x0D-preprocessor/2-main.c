@@ -1,14 +1,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
+* main - A Function ppal.
 *
-*main - A Function
-*
-*return: Zero
+* Return: Always 0.
 **/
 
 int main(void)
 {
-    printf("%s\n", __FILE__ );
-    return(0);
+printf("%s\n", __FILE__);
+return (0);
 }
