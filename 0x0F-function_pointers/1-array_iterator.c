@@ -10,7 +10,7 @@
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
 
- unsigned int i;
+unsigned int i;
 
 	if ((*action) == NULL)
 		return;
@@ -20,7 +20,7 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 
 	if (size <= 0)
 		return;
-        
-	for (i = 0; i < size; i++)
-		(*action)(array[i]);
+
+for (i = 0; i < size; i++)
+	(*action)(array[i]);
 }
