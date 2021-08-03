@@ -1,8 +1,10 @@
 # 0x13. C - More singly linked lists
-General
-How to use linked lists
+#General
+
+How to use linked lists.
 Start to look for the right source of information without too much help
-Requirements
+
+#Requirements
 General
 Allowed editors: vi, vim, emacs
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
@@ -18,7 +20,9 @@ In the following examples, the main.c files are shown as examples. You can use t
 The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called lists.h
 Don’t forget to push your header file
 All your header files should be include guarded
-More Info
+
+#More Info
+
 Please use this data structure for this project:
 
 /**
