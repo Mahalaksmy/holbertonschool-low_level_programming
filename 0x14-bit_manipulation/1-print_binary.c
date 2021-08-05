@@ -4,7 +4,7 @@
  * @n: Variable
  * Return: 0
  */
-void binary_printing(unsigned int n)
+void binary_printing(unsigned long int n)
 {
 	if (n == 0)
 		return;
