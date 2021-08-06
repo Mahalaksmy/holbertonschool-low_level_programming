@@ -7,13 +7,18 @@
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {
-	unsigned int v_bit = (sizeof(unsigned int) * 8);
+	unsigned int i = 0;
+	unsigned long int v_bit = 1;
 
-	if (index > v_bit)
+	while (v_bit > 0)
 	{
-		return (-1);
+		if (i == index)
+		{
+			*n = (v_bit | *n);
+			return (1);
+		}
+		i += 1;
+		v_bit = v_bit << 1;
 	}
-
-	*n = *n | (1 << index);
-	return (1);
+	return (-1);
 }
