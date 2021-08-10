@@ -14,7 +14,6 @@ char *buffer;
 buffer = malloc(sizeof(buffer) * letters);
 	if (buffer == NULL || filename == NULL)
 		return (0);
-        
 fd = open(filename, O_RDONLY);
 	if (fd < 0)
 	{
