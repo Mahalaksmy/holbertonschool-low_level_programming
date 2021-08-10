@@ -11,13 +11,11 @@ int fd;
 ssize_t n_read, n_write;
 char *buffer;
 
-	buffer = malloc(sizeof(buffer) * letters);
-	if (filename == NULL)
+buffer = malloc(sizeof(buffer) * letters);
+	if (buffer == NULL || filename == NULL)
 		return (0);
-if (buffer == NULL)
-	return (0);
-
-	fd = open(filename, O_RDONLY);
+        
+fd = open(filename, O_RDONLY);
 	if (fd < 0)
 	{
 		free(buffer);
