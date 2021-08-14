@@ -40,11 +40,11 @@ int main(int argc, char *argv[])
 	}
 	if (close(filex) == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file1), exit(100);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", filex), exit(100);
 	}
 	if (close(filey) == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file2), exit(100);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", filey), exit(100);
 	}
 	return (0);
 }
