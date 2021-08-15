@@ -2,22 +2,26 @@
 
 /**
  *print_diagonal -Write a function that draws a diagonal line on the terminal
- *
+ *@n: integer
  */
 void print_diagonal(int n)
 {
-int con;
-
-if (n <= 0)
+int spaces;
+int diagonal;
+if (n > 0)
 {
+for (diagonal = 1; diagonal <= n; diagonal++)
+{
+for (spaces = 1; spaces < diagonal; spaces++)
+{
+_putchar(' ');
+}
+_putchar(92);
 _putchar('\n');
+}
 }
 else
 {
-for (con = 0; con < n; con++)
-{
-_putchar(92);
-}
-}
 _putchar('\n');
+}
 }
