@@ -1,17 +1,38 @@
 #include "holberton.h"
 /**
- *times_table -Return the absolute value of an integer
- *
- */
+* times_table - Print the nine times table
+*/
 void times_table(void)
 {
-int Num1, Num2;
-
-for (Num1 = 0; Num2 <= 9; Num1++)
-{
-for (Num2 = 0; Num2 <= Num1; Num2++)
-{
-_putchar ('0' + (Num1 * Num2));
-}
-}
+    int i;
+    int e;
+    for (i = 0; i < 10; i++)
+    {
+        for (e = 0; e < 10; e++)
+        {
+            if (e == 0)
+            {
+                _putchar('0');
+                _putchar(',');
+                _putchar(' ');
+            }
+            else
+            {
+                if ((i * e) < 10)
+                    _putchar(' ');
+                else
+                    _putchar(i * e / 10 + '0');
+                _putchar(i * e % 10 + '0');
+                if (e == 9)
+                {
+                    _putchar('\n');
+                }
+                else
+                {
+                    _putchar(',');
+                    _putchar(' ');
+                }
+            }
+        }
+    }
 }
