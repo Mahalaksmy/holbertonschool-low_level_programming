@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdlib.h>
 /**
- * _realloc - A function reallocates 
+ *_realloc - A function reallocates
  * @ptr: Variable pointer.
  * @old_size: type size
  * @new_size: type size
