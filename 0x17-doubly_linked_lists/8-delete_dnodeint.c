@@ -17,16 +17,16 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 	{
 		if (x == index)
 		{
-			if (V_delete ->prev)
-				V_delete ->prev->next = V_delete ->next;
-			if (V_delete ->next)
-				V_delete ->next->prev = V_delete ->prev;
+			if (V_delete->prev)
+				V_delete->prev->next = V_delete ->next;
+			if (V_delete->next)
+				V_delete->next->prev = V_delete ->prev;
 			if (*head == V_delete )
-				(*head) = V_delete ->next;
-			free(V_delete );
+				(*head) = V_delete->next;
+			free(V_delete);
 			return (1);
 		}
-		V_delete  = V_delete ->next;
+		V_delete  = V_delete->next;
 	}
 	return (-1);
 }
