@@ -5,12 +5,11 @@
  * @size: size of the hash table
  * Return: New hash table or  returns NULL
  */
-
 hash_table_t *hash_table_create(unsigned long int size)
 {
 	hash_table_t *new_table;
 
-	new_table = malloc(sizeof(hash_table_t));
+	HT = malloc(sizeof(hash_table_t));
 
 	if (size <= 0)
 		return (NULL);
