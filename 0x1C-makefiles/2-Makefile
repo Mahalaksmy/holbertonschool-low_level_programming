@@ -3,11 +3,5 @@ SRC = main.c school.c
 OBJ = $(SRC:%.c=%.o)
 NAME = school
 
-main.o : main.c m.h
-	gcc -c main.c
-
-school.o : school.c m.h
-	gcc -c  school.c
-
 all: $(SRC)
 	$(CC) $(OBJ) -o $(NAME)
